@@ -1,0 +1,4 @@
+[core]
+    remote = feedback-remote
+['remote "feedback-remote"']
+    url = s3://feedback-remote/data/
