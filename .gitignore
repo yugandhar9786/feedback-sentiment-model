@@ -13,3 +13,5 @@ logs/
 # OS
 .DS_Store
 
+/data/customer_feedback_sentiment.csv
+
