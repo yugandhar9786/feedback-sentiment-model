@@ -11,8 +11,8 @@ Data → Training → Model Saving → API Serving
 
 ## ⚙️ Step 1 — Clone the Project
 
-git clone https://github.com/your-username/sentiment-mlops.git  
-cd sentiment-mlops
+git clone https://github.com/yugandhar9786/feedback-sentiment-model.git  
+cd feedback-sentiment-model
 
 ---
 
@@ -45,7 +45,6 @@ text,label
 
 Labels:
 - positive  
-- neutral  
 - negative  
 
 ---

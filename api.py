@@ -14,7 +14,7 @@ tokenizer = BertTokenizer.from_pretrained(model_path)
 model = BertForSequenceClassification.from_pretrained(model_path)
 model.eval()
 
-labels = ["negative", "neutral", "positive"]
+labels = ["negative", "positive"]
 
 @app.post("/predict")
 def predict_sentiment(data: TextInput):
