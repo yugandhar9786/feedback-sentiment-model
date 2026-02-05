@@ -16,6 +16,10 @@ model.eval()
 
 labels = ["negative", "positive"]
 
+@app.get("/")
+def get_health():
+    return {"status": "healthy"}
+
 @app.post("/predict")
 def predict_sentiment(data: TextInput):
     inputs = tokenizer(data.text, return_tensors="pt", truncation=True, padding=True)
